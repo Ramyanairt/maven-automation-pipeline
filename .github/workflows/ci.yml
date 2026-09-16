@@ -40,7 +40,7 @@ jobs:
 
     # Step 6: Persist the built artifact across workflow executions
     - name: Upload Build Artifact for Verification
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: production-ready-jar
         path: target/*.jar
