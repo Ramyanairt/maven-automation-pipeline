@@ -1,4 +1,4 @@
-Name: DevOps Java CI Automation Pipeline
+name: DevOps Java CI Automation Pipeline
 
 # Define the precise trigger conditions for execution flow
 on:
