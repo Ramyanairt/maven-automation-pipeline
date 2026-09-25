@@ -9,16 +9,16 @@ public class AppTest {
     @Test
     public void verifySystemEnvironmentExecution() {
         // Assert true condition to validate core test execution engines
-assertTrue(true);
+        assertTrue(true);
     }
 
     @Test
     public void verifyPipelineVelocityCalculation() {
-intleadTimeDays = 10;
-inttargetWasteReductionDays = 3;
-intoptimizedCycleTime = leadTimeDays - targetWasteReductionDays;
+        int leadTimeDays = 10;
+        int targetWasteReductionDays = 3;
+        int optimizedCycleTime = leadTimeDays - targetWasteReductionDays;
 
         // Assert structural business metric calculations
-assertEquals(7, optimizedCycleTime, "The optimized cycle time calculation failed.");
+        assertEquals(7, optimizedCycleTime, "The optimized cycle time calculation failed.");
     }
 }
