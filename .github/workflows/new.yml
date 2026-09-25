@@ -42,3 +42,8 @@ jobs:
         if: always()
         with:
           report_paths: '**/target/surefire-reports/TEST-*.xml'
+# ADD THESE 4 LINES BELOW:
+permissions:
+  contents: read
+  checks: write
+  statuses: write
