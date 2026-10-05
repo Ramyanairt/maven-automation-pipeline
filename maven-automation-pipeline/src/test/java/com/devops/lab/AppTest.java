@@ -21,6 +21,7 @@ int optimizedCycleTime = leadTimeDays - targetWasteReductionDays;
         // Assert structural business metric calculations
 assertEquals(7, optimizedCycleTime, "The optimized cycle time calculation failed.");
     }
+<<<<<<< HEAD
 	@Test
     public void verifySystemBottleneckValidation() {
         boolean constraintDefectDetected = true;
@@ -32,3 +33,7 @@ assertEquals(7, optimizedCycleTime, "The optimized cycle time calculation failed
 
 
 }
+=======
+}
+ 
+>>>>>>> 78dd791fce31321dfa60aa495c69d98ba7f0e809

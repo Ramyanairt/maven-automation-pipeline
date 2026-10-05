@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.devops.lab.AppTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s -- in com.devops.lab.AppTest
+=======
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.150 s -- in com.devops.lab.AppTest
+>>>>>>> 78dd791fce31321dfa60aa495c69d98ba7f0e809
