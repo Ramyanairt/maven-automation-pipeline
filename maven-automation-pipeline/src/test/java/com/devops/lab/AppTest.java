@@ -21,4 +21,14 @@ int optimizedCycleTime = leadTimeDays - targetWasteReductionDays;
         // Assert structural business metric calculations
 assertEquals(7, optimizedCycleTime, "The optimized cycle time calculation failed.");
     }
+	@Test
+    public void verifySystemBottleneckValidation() {
+        boolean constraintDefectDetected = true;
+        // Intentionally assertion failure simulating a major production integration blocker
+        org.junit.jupiter.api.Assertions.assertFalse(constraintDefectDetected, 
+            "CRITICAL: System bottleneck or defect detected in value stream!");
+    }
+
+
+
 }
